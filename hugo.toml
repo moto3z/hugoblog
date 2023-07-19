@@ -7,7 +7,7 @@ languageCode = "ko-KR"
 title = '장잉정신 엔지니어링'
 
 
-theme = 'ananke'
+theme = 'lightbi-hugo'
 
 DefaultContentLanguage = "kr"
 disqusShortname = "XXXX"

@@ -24,4 +24,7 @@ $ git submodule add -b main https://github.com/motrink/blog.git public
 # 글쓰기
 hugo new posts/my-first-post.md
 
+# 로컬확인
+hugo --config=hugo.toml server -D
+
 ```

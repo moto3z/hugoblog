@@ -1,4 +1,26 @@
 baseURL = 'https://motrink.github.io/blog/'
-languageCode = 'en-us'
-title = 'motrink techblog'
+
+
+# languageCode = 'en-us'
+languageCode = "ko-KR"
+
+title = '장잉정신 엔지니어링'
+
+
 theme = 'ananke'
+
+DefaultContentLanguage = "kr"
+disqusShortname = "XXXX"
+googleAnalytics = "UA-XXXXXXXX-X"
+paginate = 7
+
+[author]
+    name = 'motrink'
+    email = 'ultraraptor@naver.com'
+
+[params]
+    description = '장잉정신 엔지니어링'
+    commentoEnable = true
+    site_logo = "img/logo.svg"
+    custom_css = ["custom.css","special.css"]
+

@@ -1,26 +1,23 @@
 baseURL = 'https://motrink.github.io/blog/'
+title = 'tech blog'
 
-
-# languageCode = 'en-us'
-languageCode = "ko-KR"
-
-title = '장잉정신 엔지니어링'
-
-
-theme = 'lightbi-hugo'
-
-DefaultContentLanguage = "kr"
-disqusShortname = "XXXX"
+languageCode = 'en-us'
+# languageCode = "ko-KR"
+theme = 'hugo-liftoff'
 googleAnalytics = "UA-XXXXXXXX-X"
 paginate = 7
 
 [author]
-    name = 'motrink'
+    name = '김동훈'
     email = 'ultraraptor@naver.com'
 
 [params]
+    Subtitle = '장잉정신 엔지니어링'
     description = '장잉정신 엔지니어링'
     commentoEnable = true
-    site_logo = "img/logo.svg"
-    custom_css = ["custom.css","special.css"]
+    AuthorName = '김동훈'
+    GitHubUser = 'motrink'
+    SidebarRecentLimit = 5
 
+[permalinks]
+  posts = '/:title/'

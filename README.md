@@ -19,4 +19,9 @@ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git theme
 # blog/public -> <username>.github.io 연결
 # git submodule add -b main http://github.com/<username>/<username>.github.io.git public
 $ git submodule add -b main https://github.com/motrink/blog.git public
+
+
+# 글쓰기
+hugo new posts/my-first-post.md
+
 ```

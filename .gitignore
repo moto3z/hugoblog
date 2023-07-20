@@ -2,7 +2,6 @@
 assets/*
 resources/*
 
-
 # Created by https://www.toptal.com/developers/gitignore/api/go,goland+all,goland+iml,goland,visualstudiocode,macos,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,goland+all,goland+iml,goland,visualstudiocode,macos,windows,linux
 

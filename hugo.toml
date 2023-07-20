@@ -3,7 +3,7 @@ title = 'tech blog'
 
 languageCode = 'en-us'
 # languageCode = "ko-KR"
-theme = 'hugo-liftoff'
+theme = 'ananke'
 googleAnalytics = "UA-XXXXXXXX-X"
 paginate = 7
 

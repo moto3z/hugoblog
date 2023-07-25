@@ -27,7 +27,7 @@ git submodule add -f https://github.com/wjh18/hugo-liftoff.git themes/hugo-lifto
 
 # blog/public -> <username>.github.io 연결
 # git submodule add -b main http://github.com/<username>/<username>.github.io.git public
-$ git submodule add -b main https://github.com/motrink/blog.git public
+$ git submodule add -b main -f https://github.com/moto3z/blog.git public
 
 
 # 글쓰기

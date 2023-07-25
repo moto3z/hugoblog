@@ -44,7 +44,7 @@ jobs:
       #   run: echo "${{ secrets.SITE_VERIFICATION }}" > ./public/google34bf590cfe76298c.html
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
         env:
           EXTERNAL_REPOSITORY: moto3z/blog
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}

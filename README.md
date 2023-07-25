@@ -6,9 +6,6 @@ go
 hugo new site hugoblog && cd hugoblog
 git init
 
-
-
-
 # git submodule add https://github.com/<theme 경로>.git themes/<theme 이름>
 
 git submodule add -f https://github.com/wjh18/hugo-liftoff.git themes/hugo-liftoff

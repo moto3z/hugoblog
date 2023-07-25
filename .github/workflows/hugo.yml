@@ -48,5 +48,5 @@ jobs:
         env:
           EXTERNAL_REPOSITORY: moto3z/blog
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PUBLISH_BRANCH: master
+          PUBLISH_BRANCH: main
           PUBLISH_DIR: ./public

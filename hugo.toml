@@ -1,4 +1,4 @@
-baseURL = 'https://motrink.github.io/blog/'
+baseURL = 'https://moto3z.github.io/blog/'
 title = 'tech blog'
 
 languageCode = 'en-us'
@@ -16,7 +16,7 @@ paginate = 7
     description = '장잉정신 엔지니어링'
     commentoEnable = true
     AuthorName = '김동훈'
-    GitHubUser = 'motrink'
+    GitHubUser = 'moto3z'
     SidebarRecentLimit = 5
 
 [permalinks]

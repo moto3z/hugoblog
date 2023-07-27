@@ -9,7 +9,7 @@ hugo
 cd public
 # Add changes to git.
 git add .
-
+ 
 # Commit changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]

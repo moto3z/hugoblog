@@ -1,4 +1,7 @@
-go
+# 블로그
+
+- 블로그 주소 : https://moto3z.github.io/hugoblog/
+- 블로그 제작기 : (작성중)
 
 ```
 

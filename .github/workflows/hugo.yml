@@ -1,61 +1,61 @@
-# name: Deploy Hugo site to Pages
+name: Deploy Hugo site to Pages
 
-# on:
-#   push:
-#     branches: ["main"]
+on:
+  push:
+    branches: ["disabled"]
 
-# permissions:
-#   contents: read
-#   pages: write
-#   id-token: write
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-# concurrency:
-#   group: "pages"
-#   cancel-in-progress: false
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
-# defaults:
-#   run:
-#     shell: bash
+defaults:
+  run:
+    shell: bash
 
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-20.04
-#     steps:
-#       - uses: actions/checkout@v3
-#         with:
-#           token: ${{ secrets.GIT_TOKEN }}
-#           submodules: recursive
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GIT_TOKEN }}
+          submodules: recursive
 
-#       - name: Update theme
-#         run: git submodule update --init --recursive
+      - name: Update theme
+        run: git submodule update --init --recursive
 
-#       - name: copy config.toml
-#         run: echo "${CONFIG_TOML}" > config.toml
-#         env:
-#           CONFIG_TOML: hugo.toml
+      - name: copy config.toml
+        run: echo "${CONFIG_TOML}" > config.toml
+        env:
+          CONFIG_TOML: hugo.toml
 
-#       - name: Setup Hugo
-#         uses: peaceiris/actions-hugo@v2
-#         with:
-#           hugo-version: "latest"
-#           # extended: true
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          # extended: true
 
-#       - name: Build
-#         run: hugo --minify
+      - name: Build
+        run: hugo --minify
 
-#       - name: git pull
-#         run: git pull
+      - name: git pull
+        run: git pull
 
-#       # - name: google-addsense
-#       #   run: echo "${{ secrets.SITE_VERIFICATION }}" > ./public/google34bf590cfe76298c.html
+      # - name: google-addsense
+      #   run: echo "${{ secrets.SITE_VERIFICATION }}" > ./public/google34bf590cfe76298c.html
 
-#       - name: Deploy
-#         uses: peaceiris/actions-gh-pages@v3
-#         with:
-#           personal_token: ${{ secrets.TOKEN }}
-#           external_repository: moto3z/blog
-#           publish_dir: ./public
-#           #   keep_files: true
-#           user_name: moto3z
-#           user_email: ultraraptor@naver.com
-#           publish_branch: main
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.TOKEN }}
+          external_repository: moto3z/blog
+          publish_dir: ./public
+          #   keep_files: true
+          user_name: moto3z
+          user_email: ultraraptor@naver.com
+          publish_branch: main

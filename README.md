@@ -3,6 +3,17 @@
 - 블로그 주소 : https://moto3z.github.io/hugoblog/
 - 블로그 제작기 : (작성중)
 
+
+# 글쓰기
+```sh
+hugo new posts/{{$title}}.md
+hugo new posts/.md
+```
+```sh
+hugo new projects/{{$title}}.md
+hugo new posts/.md
+```
+
 ```
 
 

@@ -54,7 +54,7 @@ jobs:
         with:
           personal_token: ${{ secrets.TOKEN }}
           external_repository: moto3z/blog
-          publish_dir: ./public
+          publish_dir: ./docs
           #   keep_files: true
           user_name: moto3z
           user_email: ultraraptor@naver.com

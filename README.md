@@ -11,7 +11,7 @@ hugo new posts/.md
 ```
 ```sh
 hugo new projects/{{$title}}.md
-hugo new posts/.md
+hugo new projects/.md
 ```
 
 ```

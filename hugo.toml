@@ -1,4 +1,4 @@
-baseURL = 'https://moto3z.github.io/blog/'
+baseURL = 'https://moto6.github.io/blog/'
 title = 'tech blog'
 
 languageCode = 'en-us'
@@ -12,11 +12,11 @@ paginate = 7
     email = 'ultraraptor@naver.com'
 
 [params]
-    Subtitle = '장잉정신 엔지니어링'
-    description = '장잉정신 엔지니어링'
+    Subtitle = 'techlog'
+    description = 'techlog'
     commentoEnable = true
     AuthorName = '김동훈'
-    GitHubUser = 'moto3z'
+    GitHubUser = 'moto6'
     SidebarRecentLimit = 5
 
 [permalinks]

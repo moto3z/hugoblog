@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/moto3z/blog.git
+	url = https://github.com/moto6/blog.git
 	branch = main
 [submodule "themes/ananke"]
 	path = themes/ananke

@@ -1,6 +1,6 @@
 # 블로그
 
-- 블로그 주소 : https://moto3z.github.io/hugoblog/
+- 블로그 주소 : https://moto6.github.io/hugoblog/
 - 블로그 제작기 : (작성중)
 
 
@@ -41,7 +41,7 @@ git submodule add -f https://github.com/wjh18/hugo-liftoff.git themes/hugo-lifto
 
 # blog/public -> <username>.github.io 연결
 # git submodule add -b main http://github.com/<username>/<username>.github.io.git public
-$ git submodule add -b main -f https://github.com/moto3z/blog.git public
+$ git submodule add -b main -f https://github.com/moto6/blog.git public
 
 
 # 글쓰기

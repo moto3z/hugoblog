@@ -1,6 +1,6 @@
 baseURL = 'https://moto6.github.io/blog/'
 title = 'tech blog'
-
+publishDir = "docs"
 languageCode = 'en-us'
 # languageCode = "ko-KR"
 theme = 'hugo-liftoff'

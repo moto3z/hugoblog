@@ -1,5 +1,5 @@
 baseURL = 'https://moto6.github.io/blog/'
-title = 'tech blog'
+title = 'blog'
 publishDir = "docs"
 languageCode = 'en-us'
 # languageCode = "ko-KR"
